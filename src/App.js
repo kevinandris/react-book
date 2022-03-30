@@ -7,7 +7,6 @@ import ShowBookList from './components/ShowBookList';
 import ShowBookDetails from './components/ShowBookDetails';
 import UpdateBookInfo from './components/UpdateBookInfo';
 
-
 function App() {
   return (
     <div className='App'>
@@ -16,10 +15,10 @@ function App() {
         <Route path="/create-book" element={<CreateBook/>} />
         <Route path="/Book-details" element={<ShowBookDetails/>} />
         <Route path="/update-info" element={<UpdateBookInfo/>} />
-
       </Routes>
     </div>
   )
 }
 
 export default App;
+
