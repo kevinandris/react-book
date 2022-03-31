@@ -22,6 +22,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.2",
+    "config": "^3.3.7",
     "express": "^4.17.3",
     "heroku": "^7.60.0",
     "mongoose": "^6.2.8",
